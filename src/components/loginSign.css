@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 2.1rem;
+    color: #000000;
+    margin: 0 0;
+}
+
+.login-content{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Left panel  */
+.lateral-nav{
+    background-color: #EC7160;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.login-logo{
+    width: 100px;
+}
+
+.login-img{
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+/* Right panel */
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.back-btn {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #8692A6;
+    margin-top: 75px;
+    margin-left: 75px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+    margin-top: 0;
+}
+
+.subtitle{
+    color: #8692A6;
+    font-size: 1.2rem;
+
+}
+
+/* Google and Facebook buttons */ 
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.social-logo{
+    border: 0.9px solid rgba(82, 76, 76, 0.38);
+    border-radius: 8px;
+    background: #FFFFFF;
+    width: 180px;
+    height: 50px;
+    color: rgba(82 76 76/ 0.38);
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+/* Divider */
+
+.divider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #524C4C;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+    /* margin-bottom: 30px; */
+}
+
+/* Email and passwords */
+
+.label {
+    color: #696F79;
+    font-size: 1rem;
+    line-height: 19px;
+    margin-top: 0px;
+}
+
+input > .input {
+    height: 65px;
+    background: white;
+    border: 1px solid #8692A6;
+    border-radius: 6px;
+}
+
+/* Sign and Login button */ 
+
+.signup-btn {
+    height: 60px;
+    background-color: #EC7160;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.question {
+    font-size: 1rem;
+    color: #696F79;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color:#EC7160;
+}

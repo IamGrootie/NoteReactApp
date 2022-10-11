@@ -1,0 +1,38 @@
+/**** NAV BAR ****/
+
+.lateral--nav{
+    background-color: #f6f6f6;
+    width: 260px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .img-logo {
+    margin: 10px;
+    width:50%;
+  }
+  
+  nav a {
+    margin-bottom: 1rem;
+    margin-left: 36px;
+    padding: .5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #898989
+  }
+  
+  nav a.active {
+    color: #303030;
+    border-left: 3px solid #EC7160;
+  } 
+  
+  .logout-btn {
+    background: #EC7160;
+    border-radius: 6px;
+    width: 100px;
+    border: none;
+    color: white;
+    margin-top: 100px;
+    margin-left: 36px;
+  }
